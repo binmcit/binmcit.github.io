@@ -36,14 +36,14 @@
             <h3 class="mb-4">Contact Me</h3>
             <p>If you have any questions, feedback, or just want to say hello, feel free to leave a message below. You can also reach me directly at <strong><a href="mailto:binwu.fz@gmail.com">binwu.fz@gmail.com</a></strong>.</p>
 
-            <form>
+            <form action="https://formspree.io/f/xldnwnaz" method="POST">
                 <div class="form-group">
                     <label for="email">Your Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="yourname@example.com" required>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="yourname@example.com" required>
                 </div>
                 <div class="form-group mt-3">
                     <label for="message">Your Message</label>
-                    <textarea class="form-control" id="message" rows="5" placeholder="Your comments or questions..." required></textarea>
+                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Your comments or questions..." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </form>
